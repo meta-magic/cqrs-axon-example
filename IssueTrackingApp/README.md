@@ -10,20 +10,20 @@ Prerequisites for executing the example :
 Calling Services Sample: 
 1. Raise Issue - 
   URL - http://localhost:9000/Issue/raiseIssue
-  Request Method - POST
-  Payload - { "title" : "Text field is not working", "description" : "When I put exact max length chars, The entire page will crash", "severity" : 3, "priority" : "M" }
+  <br>Request Method - POST
+  <br>Payload - { "title" : "Text field is not working", "description" : "When I put exact max length chars, The entire page will crash", "severity" : 3, "priority" : "M" }
   
 2. Update Issue - 
-  URL - http://localhost:9000/Issue/update
-  Request Method - POST
-  Payload - { "issueId" : "dbac5917-05d5-494f-90f4-a6e79a4d4517", "severity" : 2 }
-  [Note : "issueId" : "dbac5917-05d5-494f-90f4-a6e79a4d4517" will vary according to saved issue id]
+  <br>URL - http://localhost:9000/Issue/update
+  <br>Request Method - POST
+  <br>Payload - { "issueId" : "dbac5917-05d5-494f-90f4-a6e79a4d4517", "severity" : 2 }
+  <br>[Note : "issueId" : "dbac5917-05d5-494f-90f4-a6e79a4d4517" will vary according to saved issue id]
   
 3. All Issue details - 
-  URL - http://localhost:9020/Issue/findAll
-  Request Method - GET
+  <br>URL - http://localhost:9020/Issue/findAll
+  <br>Request Method - GET
   
 4. Find One Issue - 
-  URL - http://localhost:9020/Issue/findById/dbac5917-05d5-494f-90f4-a6e79a4d4517
-  Request Method - GET
-  [Note : "issueId" : "dbac5917-05d5-494f-90f4-a6e79a4d4517" will vary according to saved issue id]
+  <br>URL - http://localhost:9020/Issue/findById/dbac5917-05d5-494f-90f4-a6e79a4d4517
+  <br>Request Method - GET
+  <br>[Note : "issueId" : "dbac5917-05d5-494f-90f4-a6e79a4d4517" will vary according to saved issue id]
