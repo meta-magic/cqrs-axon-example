@@ -1,0 +1,18 @@
+axon:
+  eventhandling:
+    processors:
+      amqpEvents:
+        source: issueEvents
+server:
+  port: 9020
+spring:
+  application:
+    name: issuetrackingquery
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost/issuetrackingquery
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
